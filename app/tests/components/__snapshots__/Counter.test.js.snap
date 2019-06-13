@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Counter.vue template snapshot correctly 1`] = `
+<div>
+  [counter]
+  <div>
+    10
+  </div>
+  <div>
+    <button
+      name="increment"
+    >
+      +
+    </button>
+    <button
+      name="decrement"
+    >
+      -
+    </button>
+  </div>
+</div>
+`;

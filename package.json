@@ -1,0 +1,17 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "My TypeScript Nuxt.js project",
+  "author": "Takuya Iida",
+  "private": true,
+  "scripts": {
+    "app": "cd app && yarn dev",
+    "lint": "cd app && yarn lint && cd ../functions && yarn lint",
+    "test": "cd app && yarn test",
+    "test:coverage": "cd app && yarn test:coverage",
+    "build": "yarn build:setup && cd app && yarn build && cd ../functions && yarn build",
+    "build:setup": "yarn && cd app && yarn && cd ../functions && yarn",
+    "serve": "firebase serve --only functions,hosting",
+    "deploy": "firebase deploy"
+  }
+}
