@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@nuxt/config": "^2.7.1",
-    "express": "^4.17.0",
+    "express": "^4.17.3",
     "firebase": "^6.0.2",
     "firebase-admin": "~7.0.0",
     "firebase-functions": "^2.3.0",
